@@ -2,7 +2,7 @@
 title: "Quick Guide"
 subtitle: "Untertitel des OER-Skripts"
 lang: de
-date: 1900-01-01
+date: today
 date-format: "DD.MM.YYYY"
 date-modified: last-modified
 metadata-files:
@@ -25,55 +25,257 @@ execute:
   freeze: auto
 ---
 
-Herzlichen Glückwunsch 🎉 – Sie haben erfolgreich ein OER-Skript aus dem Template generiert!
+## Zielsetzung des Quick Guide
 
-Übernehmen Sie folgende Gliederung oder ersetzen Sie diese mit Ihren eigenen Inhalten. Viele Hinweise zu dem Gliederungsvorschlag sind in den Kommentaren in dieser .qmd-Datei hinterlegt.
+Dieser Quick Guide richtet sich an Mitglieder von NFDI4Objects, die ihre Lehrmaterialien als FAIRe Open Educational Resources (OER) mit Hilfe der Publikationsumgebung Quarto und Quarto-Templates veröffentlichen möchten. Ziel ist es, alle notwendigen Schritte kompakt auf einer Seite bereitzustellen, um die Metadaten der Lehrmaterialien minimal anzupassen, Inhalte mit den Quarto-Templates zu erstellen und diese über GitHub und GitHub Pages zu veröffentlichen. Für weitergehende Anpassungen, insbesondere im Design, sowie andere Bereitstellungsszenarien außerhalb von NFDI4Objects wird auf die ausführliche [Dokumentation der Quarto-Templates für FAIRedelte OER](https://kacebe.github.io/n4o_oer-template-dokumentation/) verwiesen.
 
-Warum Sie FAIRedelte OER bereitstellen sollten, die Quarto-Publikationsumgebung dafür besonders gut geeignet ist und alle wesentlichen Informationen zur Nutzung und Anpassung der Templates und der Publikation der Lehr- und Lernmaterialien erfahren Sie in in der [Dokumentation zu den OER-Templates von NFDI4Objects]({{< meta template-doku-url >}}).
+## Voraussetzungen
+
+Um den Workflow dieses Quick Guides umzusetzen, benötigen Sie einige grundlegende Werkzeuge. Es wird empfohlen, alle Komponenten vor Beginn einmal vollständig zu installieren. Diese werden im Folgenden kurz aufgeführt: 
+**Git** – zur Versionierung der Inhalte, einen **GitHub-Account** – zur Veröffentlichung der Materialien, **Quarto** – zur Erstellung der OER als Website, **VSCodium** – als Arbeitsumgebung und die **Quarto Extension für VSCodium** – zur Unterstützung beim Schreiben und Rendern
+
+### Git
+
+::: panel-tabset
+#### Windows
+
+#### MacOS
+
+#### Linux
+
+:::
+
+### Einrichten eines GitHub-Account
+
+### Quarto
+
+### VSCodium und die Quarto Extension
 
 
-## Einleitung
+## Workflows
 
-<!-- Holen Sie die Lernenden in diesem Absatz ab. Stellen Sie in wenigen Sätzen, mit Beispielen und Fragen das Thema des Bausteins vor. -->
+### Überblick
+Für die Erstellung und Veröffentlichung der OER gibt es zwei mögliche Vorgehensweisen. Beide führen zum gleichen Ergebnis, unterscheiden sich jedoch darin, wo gearbeitet wird und wann GitHub eingebunden ist.
 
-### Lernziele {.kolophon .unnumbered .unlisted}
+**Workflow 1: Lokal arbeiten**
 
-<!-- Idealerweise beziehen sie sich in dieser Aufzählung auf die Lernzielmatrix zum Themenbereich Forschungsdatenmanagement (FDM) für die Zielgruppen Studierende, PhDs und Data Stewards.^[Petersen, B., Engelhardt, C., Hörner, T., Jacob, J., Kvetnaya, T., Mühlichen, A., Schranzhofer, H., Schulz, S., Slowig, B., Trautwein-Bruns, U., Voigt, A., & Wiljes, C. (2023). Lernzielmatrix zum Themenbereich Forschungsdatenmanagement (FDM) für die Zielgruppen Studierende, PhDs und Data Stewards. Zenodo. [https://doi.org/10.5281/zenodo.8010617](https://doi.org/10.5281/zenodo.8010617)] -->
+Die Inhalte werden zunächst vollständig lokal erstellt und die Veröffentlichung erfolgt erst am Ende über GitHub.
+Dieser Workflow ist geeignet für einen Einstieg ohne direkte Versionskontrolle.
 
-In diesem Skript lernen sie [@petersen2023]:
+**Workflow 2: Direkt in GitHub arbeiten**
 
-- Kompetenz #.#
+Die Arbeit erfolgt direkt in einem GitHub Repositorium, sodass Änderungen kontinuierlich über Commits versioniert werden können. Dieser Workflow ist geeignet für nachvollziehbares Arbeiten von Beginn an.
 
-### Vorwissen {.kolophon .unnumbered .unlisted}
+<!-- Überblick der Workflows als mermaid Diagramm einbinden? -->
 
-Für das Verständnis dieses Skripts werden vorausgesetzt:
+### Schritt für Schritt
+#### Workflow 1
 
-- Voraussetzung
+TODO
+<!--
+1. Ordner erstellen
 
-<!-- Versuchen sie so detailliert wie möglich die Voraussetzungen für das Verständnis des Bausteins aufzuzählen. Geben sie Hinweise, wo die Lernenden entsprechende/s Kompetenzen/Wissen erwerben können. Damit sind nicht nur Kenntnisse im Forschunsdatenmanagement gemeint sondern auch Grund-Kompetenzen aus der Data Literacy und methodisch-praktische Kompetenzen gemeint. -->
+2.  Template herunterladen
 
-### Bezug zum Forschungsdatenlebenszyklus {.kolophon .unnumbered .unlisted}
+3.  Änderung ausführuen und testen
 
-<!-- Erläutern sie kurz, welche Rolle das Thema im Bezug auf die Phasen im Forschungsdatenzyklus spielen.
+4.  Metadaten anpassen
 
--   planen und projektieren
--   sammeln und erfassen
--   anreichern und auswerten
--   archivieren und sichern
--   teilen, veröffentlichen und auffinden
--   wiederverwenden und zitieren
+5.  Inhalte schreiben
+
+6.  Iteratives Überprüfen der Änderungen möglich
+
+7.  Repository einrichten auf GitHub hochladen
+
+8.  OER als GitHub Pages ausspielen
+
+9.  Veröffentlichung aufrufen
+-->
+#### Workflow 2
+
+TODO
+<!--
+1. Use template in GitHub
+
+2.  git clone
+
+3.  Metadaten anpassen
+
+4.  Inhalte schreiben
+
+5.  Iteratives Überprüfen und Pushen der Änderungen möglich
+
+6.  OER als GitHub Pages ausspielen
+
+7.  Veröffentlichung aufrufen
 -->
 
-## Inhaltliche Abschnitte
+## Metadaten im Template anpassen
 
-<!-- 
+Die wichtigsten Anpassungen im Template betreffen zunächst die Metadaten der OER wie beispielsweise Titel, Autor und Zusammenfassung. Zur Orientierung zeigt der folgende **Screenshot**, wo diese Informationen in der gerenderten OER erscheinen und an welchen Stellen im Code sie definiert werden:
 
-Hier ist der Raum für die Inhalte des Skripts. Nutzen sie die vielfältigen Möglichkeiten, Inhalte mit Quarto-Markdown zu gestalten. Ersetzen Sie die Überschriften "Inhaltliche Abschnitte" und "Abschnitt-Überschrift".
+![Screenshot der Metadatenfelder im gerenderten OER Template](img/screenshot_OER_template.png ""){fig-alt=""}
 
-Viele Hinweise dazu finden sie im [Quarto-Guide](https://quarto.org/docs/guide/)
 
--->
+### Anpassungen im Code
 
+::: panel-tabset
+#### `.qmd` Datei:
+
+1.  Titel anpassen (Zeile 2)
+2.  Untertitel anpassen oder Zeile löschen (Zeile 3)
+3.  Datum der Veröffentlichung eintragen (Zeile 5)
+4.  Logo wird unter toc-title eingebunden (Zeile 17)
+5. 
+
+``` yaml
+---
+title: "OER-Skript"
+subtitle: "Untertitel des OER-Skripts"
+lang: de
+date: 1900-01-01
+date-format: "DD.MM.YYYY"
+date-modified: last-modified
+metadata-files:
+ - _layout.yml
+ - _autor_innen.yml
+ - _oer_metadata.yml
+# Optional
+bibliography: bibliographie.bib
+toc: true
+toc-expand: true
+toc-title: |
+ {{< brand logo large >}}
+toc-location: right
+number-sections: true # Auf false setzen, wenn keine automatische Abschnittsnummerierung gewünscht
+lightbox: true
+crossref: 
+ lof-title: "Liste der Abbildungen"
+# Für CI-build in github
+execute:
+ freeze: auto
+```
+
+#### `_autor_innen.yml`
+
+Angaben zu den Autor:innen
+
+``` yaml
+author:
+  - name:
+      given: Jane
+      family: Doe
+    orcid: 0000-0000-0000-0000
+    email: jane@doe.com
+    affiliation: 
+      - name: Janes Institution
+        city: Janes City
+        url: https://jane.doe.com
+    attributes:
+      corresponding: true
+    role: "writing – original draft"
+```
+
+#### `_oer_metadata.yml`
+
+Platzhalter, Codeschnipsel kürzen
+
+``` yaml
+# Beschreibende Metadaten
+abstract: |
+  Abstract zum Skript.
+abstract-title: "Zusammenfassung"
+description: |
+  Kurzbeschreibung der Inhalte des Skripts.
+funding: |
+  Optionale Angaben zur Förderung, in deren Rahmen das Skript erstellt wurde
+# vgl. https://quarto.org/docs/authoring/front-matter.html#funding
+
+# Open Graph Metadaten für HTML-Header: https://quarto.org/docs/websites/website-tools.html#open-graph
+website:
+  open-graph:
+    locale: de_DE
+    type: article
+
+# Erschließung der Inhalte mit Quarto
+# Mit categories und keywords können die Inhalte von Quarto-Dokumenten auf zwei Ebenen erschlossen werden. Übersichtsseiten mit Suchfunktion lassen sich so automatisch mit Quarto erstellen. vgl. https://quarto.org/docs/websites/website-listings.html
+# Für 'categories' sollte das kontrollierte Vokabular der dini-AG "Kompetenzzentrum Interoperable Metadaten (KIM)" genutzt werden: https://skohub.io/dini-ag-kim/hcrt/heads/master/w3id.org/kim/hcrt/index.html
+categories:
+  - Skript
+# Für die inhaltliche Erschließung keywords/Stichworte/tags sollte ein kontrolliertes Vokabular genutzt werden.
+keywords:
+  - Stichwort 1
+  - Stichwort 2
+
+# Technische Metadaten
+site-url: &site https://nfdi4objects.github.io/oer-template-skript/
+repo-url: &repo https://github.com/nfdi4objects/oer-template-skript
+doi: XXXXXXX.XXXXXXX
+
+# Vorgaben für den Appendix "Zitat"
+csl: assets/csl/internet-archaeology.csl # Verweis auf CSL-Datei mit Zitierformat. Weitere CSL-Dateien im Verzeichnis assets/csl/. Fehlende CSL-Dateien können hier heruntergeladen werden: https://www.zotero.org/styles
+# vgl. https://quarto.org/docs/reference/metadata/citation.html
+citation:
+  type: document
+  container-title: "Open Educational Resource"
+  publisher: Institution
+  issued: 2025
+  url: *site
+  license: "https://creativecommons.org/licenses/by/4.0/"
+
+# Rechtliche Metadaten
+copyright: "Freitext-Angaben zu Inhaber:innen des Urheberrechts an den Inhalten (Anzupassen im Schlüssel `copyright` in der Datei `_oer_metadata.yml`)"
+license: CC BY # # Optionen für Lizensierungsangaben: https://quarto.org/docs/authoring/front-matter.html#license. Wird übernommen in automatisch erstellten Appendix "Lizenz".
+
+# Spezifische Metadaten für den Export in fachliche Metadatenschemata
+
+# OERSI (vgl. https://oersi.gitlab.io/metadata-form/metadata-generator.html)
+bildungsstufe: https://w3id.org/kim/educationalLevel/level_A
+materialart: https://w3id.org/kim/hcrt/script
+status: Draft  # Draft, Incomplete, Published
+
+# Schema für eigene Key-Value-Paare mit Bindestrich: custom-key: "custom-value"
+beispiel-key: beispiel-value
+# Shortcuts für Verweise auf verlinkte OER-Bausteine für die Nutzung im Text. Beispiel:
+# url_n4o-oer_metadaten: https://gitlab.rlp.net/n4o/oer-bausteine/n4o-oer-skript-einfuehrung-metadaten'
+# Referenz  im Text: {{< meta url_n4o-oer_metadaten >}}
+
+template-doku-url: https://nfdi4objects.github.io/oer-template-dokumentation/
+```
+
+#### `brand.yml`
+
+Pfadangaben zur den Dateien der Logos (Z. 4-10) und Definition der Shortcodes (Z. 12-14)
+
+``` yaml
+logo:
+  images:
+    icon-logo:
+      path: assets/logos/logo_klein.png
+      alt: "Icon"
+    institution-logo:
+      path: assets/logos/logo.png
+      alt: "Logo der Institution"
+    projekt-logo:
+      path: assets/logos/logo_gross.png
+      alt: "Logo des Projekts"
+  small: icon-logo
+  medium: institution-logo
+  large: projekt-logo
+```
+
+:::
+
+## Inhalte schreiben und Codesnippets verwenden
+
+Die Inhalte werden ausschließlich in der `.qmd`-Datei erstellt. Für eine abwechslungsreiche Gestaltung können verschiedene Elemente genutzt werden, die in den folgenden Ressourcen vorgestellt sind.
+
+* [Design-Beispiele](https://kacebe.github.io/n4o_oer-template-dokumentation/data/quarto-designtest.html) 
+* [OER-Snippets](https://kacebe.github.io/n4o_oer-template-dokumentation/data/quarto-oer-snippets.html)  
+* [Markdown Basics](https://quarto.org/docs/authoring/markdown-basics.html)
+
+
+TODO: Ablage von Bildern & Bibliographie
 
 ## Weiterführende Quellen und Informationen {.appendix .unnumbered}
 
@@ -87,11 +289,11 @@ Unser Wunsch ist ein lebendiges, stetig wachsendes Dokument, das sich durch die 
 
 <!-- Verweise auf Website und Repository werden in _oer_metadata.yml global festgelegt. Wenn die OER nicht in einem git-Repository gehostet oder online bereitgestellt werden, können die folgenden zwei Zeilen gelöscht werden. -->
 
-:link: [Dieser Baustein als Website]({{< meta site-url >}}) 
+:link: [Dieser Baustein als Website]({{< meta site-url >}})
 
 :link: [Quarto-Quellcode dieses Bausteins]({{< meta repo-url >}})
 
----
+------------------------------------------------------------------------
 
 Dieses Skript nutzt das [OER-Skript-Template von NFDI4Objects](https://github.com/nfdi4objects/oer-template-skript)
 
@@ -99,6 +301,7 @@ Dieses Skript nutzt das [OER-Skript-Template von NFDI4Objects](https://github.co
 
 <!-- Optionale Angaben zum Einsatz von LLM bei der Erstellung oder Überarbeitung des Skripts -->
 
+```{=html}
 <!-- An dieser Stelle werden von Quarto automatisch generierte Abschnitte angehängt:
 
 Bibliographie:
@@ -123,3 +326,4 @@ Angabe generiert aus:
   Schlüssel 'issued' in der _oer_metadata.yml
   Schlüssel 'doi:' in der _oer_metadata.yml / Wenn keine doi gesetzt wird der Titel mit dem Wert aus 'site-url:' in _oer_metadata.yml verlinkt.
 -->
+```
